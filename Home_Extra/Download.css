@@ -1,0 +1,236 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----------------------Header----------------------------*/
+#header
+{
+	background-image: url(Images/Papcoron.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#header .navbar-nav li a
+{
+	float: right;
+	color: #fff!important;
+	text-shadow: 2px 2px 5px #DC143C;
+	font-size: 20px;
+}
+
+ /* effect-shine */
+#header a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+#logo-text
+{
+	color: #FFD700;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #FF0000;
+}
+
+#logo-img
+{
+	width: 70px;
+	height: 70px;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+	outline: none!important;
+}
+
+nav .fa-bars
+{
+	font-size: 30px;
+}
+
+
+/*-----------------------Features----------------------------*/
+#features
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/Plate_bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+#features .col-md-6
+{
+	padding: 5px;
+}
+
+.feature-box
+{
+	height: 120px;
+}
+
+.feature-box .feature-left
+{
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+
+.feature-box .feature-right h4
+{
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.feature-box .feature-right p
+{
+	padding-left: 50px;
+	text-align: left;
+}
+
+/*............Footer..............*/
+/*------------------------Footer----------------------------*/
+#footer
+{
+	margin-top: 30px;
+	padding: 70px;
+	background-color: #efefef ;
+	color: #013f7e;
+}
+
+.footer-logo
+{
+	width: 140px;
+	height: 140px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.footer-logo-text
+{
+    color: black;
+	font-size: 150%;
+	font-weight: 900px;
+	text-shadow: 2px 2px 5px white;
+}
+
+#footer h1
+{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer p
+{
+	font-size: 12px;
+	text-align: left;
+}
+
+#footer .row .fa
+{
+	padding-right: 20px;
+	font-size: 17px;
+}
+
+#footer #exec
+{
+  width: 50px;
+	height: 50px;
+}
+           /*-------------Contact------------*/
+#footer .fa-phone-square
+{
+    color: #228B22;
+	font-size: 17px;
+}
+
+#footer .fa-envelope
+{
+    color: #FA8072;
+	font-size: 17px;
+}
+
+#footer .fa-home
+{
+    color: #1E90FF;
+	font-size: 17px;
+}
+
+#footer .fa-building-o
+{
+    color: black;
+	font-size: 17px;
+}
+
+           /*-------------Follow us------------*/
+#footer .fa-facebook-official
+{
+    color: #3b5998;
+	font-size: 17px;
+}
+
+#footer .fa-youtube-play
+{
+    color: #FF0000;
+	font-size: 17px;
+}
+
+#footer .fa-linkedin
+{
+    color: #0e76a8;
+	font-size: 17px;
+}
+
+#footer .fa-twitter
+{
+    color: #00acee;
+	font-size: 17px;
+}
+
+#footer .fa-instagram
+{
+    color: #00acee;
+	font-size: 17px;
+}
+
+#footer hr
+{
+	margin-top: 10px;
+}
+
+#footer .fa-heart-o
+{
+	color: red;
+	font-size: 17px;
+}
+
+#footer .fa-copyright
+{
+	color: black;
+	font-size: 17px;
+}
+
+#footer .copyright
+{
+	margin-bottom: -20px;
+	text-align: center;
+	font-size: 15px;
+}
